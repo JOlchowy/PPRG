@@ -9,6 +9,7 @@ int main()
     cin >> start;
     cout << "Podaj koniec zakresu: ";
     cin >> end;
+
     if (start > end || start <= 0)
     {
         cout << "Nieprawidłowy zakres";
